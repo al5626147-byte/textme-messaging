@@ -3,8 +3,6 @@ import sys
 from textme_messaging import VERSION
 
 extra = {}
-if sys.version_info >= (3,):
-    extra['use_2to3'] = True
 
 setup(name="textme-messaging",
       version='%s.%s.%s' % VERSION,
